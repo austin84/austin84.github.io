@@ -3884,12 +3884,11 @@ body.subpage {
 }
 
 #header {
-  background: rgba(0, 0, 0, 0.975);
-  color: #a6a6a6;
+  background: rgba(54, 70, 43, 1);
   cursor: default;
-  height: 3.25em;
+  height: 6em;
   left: 0;
-  line-height: 3.25em;
+  line-height: 5.75em;
   position: fixed;
   text-align: right;
   top: 0;
@@ -3906,6 +3905,11 @@ body.subpage {
   padding: 0;
   position: absolute;
   top: 0;
+}
+
+/* My added logo height */
+#header > .logo img {
+  height: 95px;
 }
 
 #header > .logo a {
